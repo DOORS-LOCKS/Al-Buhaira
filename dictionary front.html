@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive Page</title>
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="https://i.ibb.co/tTPY6dm1/image.png" />
+
+  <style>
+    body {
+      margin:0;
+      min-height:100vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between; /* top → middle → bottom spacing */
+      align-items:center;
+      font-family:sans-serif;
+      background:url("https://i.ibb.co/yc08crzH/20250923-0635-Starry-Arabic-Skies-simple-compose-01k5t1nc7kf4y8jv4ma4ctgmwe.png") no-repeat center center fixed;
+      background-size:cover;
+      color:#fff;
+      text-align:center;
+      padding:20px;
+      box-sizing:border-box;
+    }
+
+    header {
+      margin-top:10px;
+    }
+
+    h1 {
+      margin:0.5rem 0;
+      font-size:2.2rem;
+      color:#fff;
+      text-shadow:0 0 8px #000;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    img.logo {
+      width:180px;
+      max-width:220px;
+      min-width:100px;
+      height:auto;
+    }
+
+    main {
+      flex:1; /* center content flexible */
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      width:100%;
+    }
+
+    .middle-img {
+      width:60%;
+      max-width:320px;
+      min-width:150px;
+      height:auto;
+    }
+
+    footer {
+      margin-bottom:20px;
+    }
+
+    .home-btn {
+      background:greenyellow;
+      border:none;
+      border-radius:12px;
+      padding:0.6rem 1rem;
+      cursor:pointer;
+      box-shadow:0 4px 10px rgba(0,0,0,0.4);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .home-btn:hover {
+      transform:scale(1.05);
+      box-shadow:0 6px 14px rgba(0,0,0,0.5);
+    }
+
+    .home-btn img {
+      width:12vw;
+      max-width:70px;
+      min-width:40px;
+      height:auto;
+    }
+
+    /* responsive tweaks */
+    @media (max-width:600px) {
+      h1 { font-size:1.6rem; }
+      img.logo { width:140px; }
+      .middle-img { width:70%; }
+    }
+
+    @media (min-width:1024px) {
+      h1 { font-size:2.6rem; }
+      .middle-img { width:40%; }
+    }
+  </style>
+</head>
+<body>
+    <img class="logo" src="https://i.ibb.co/ks0QKYYk/img-1.png" alt="البحير logo" style="width: 250px;">
+    <h1>DICTIONARY</h1>
+  <main>
+    <img class="middle-img" src="https://i.ibb.co/s9yCh9nt/me-1.png" alt="middle image">
+  </main>
+
+  <footer>
+    <button class="home-btn" onclick="window.location.href='dictionary home.html'">
+      <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="home">
+    </button>
+  </footer>
+</body>
+</html>
