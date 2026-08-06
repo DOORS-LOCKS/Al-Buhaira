@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://doors-locks.github.io/Al-Buhaira/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <priority>1.00</priority>
+  </url>
+  
+  <!-- Dictionary Home Page -->
+  <url>
+    <loc>https://doors-locks.github.io/Al-Buhaira/dictionary%20home.html</loc>
+    <lastmod>2026-08-06</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Dictionary Help Page -->
+  <url>
+    <loc>https://doors-locks.github.io/Al-Buhaira/dictionary%20help.html</loc>
+    <lastmod>2026-08-06</lastmod>
+    <priority>0.80</priority>
+  </url>
+</urlset>
